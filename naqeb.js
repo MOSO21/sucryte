@@ -4,7 +4,7 @@ const invites = {};
 const wait = require("util").promisify(setTimeout);
 const moment = require("moment");
 const fs = require("fs");
-var prefix = "N!";
+var prefix = "M!";
 
 
 
@@ -761,4 +761,4 @@ naqeb.on("message", message => {
   }
 });
 
-naqeb.login("token bot");
+naqeb.login("NzUwMTUwMjI1ODA4NzIwMDAz.X02V1g.wbRfralrtcm6hUnkpYo1oyic8HY​");
