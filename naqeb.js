@@ -4,7 +4,7 @@ const invites = {};
 const wait = require("util").promisify(setTimeout);
 const moment = require("moment");
 const fs = require("fs");
-var prefix = "N!";
+var prefix = "M!";
 
 
 
@@ -16,7 +16,7 @@ var prefix = "N!";
 
 naqeb.on('ready', () => {
   console.log(`Logged in as ${naqeb.user.tag}!`);
- naqeb.user.setActivity("N!help",{type: 'Playing'})
+ naqeb.user.setActivity("M!help",{type: 'Playing'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -761,4 +761,4 @@ naqeb.on("message", message => {
   }
 });
 
-naqeb.login("token bot");
+naqeb.login("NzU2OTY5NTIyMDM2MDgwNzIw.X2ZkzQ.6XzQxsuontWo6YxOx-wHlUGwBO4");
